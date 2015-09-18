@@ -1,0 +1,239 @@
+.ol-zoom {
+position: absolute;
+float: right;
+top: .4em;
+right: 1em;
+left: none;
+}
+
+input {
+	max-width: 100%; 
+}
+
+.bigButton {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 50px;
+    background-color: #efefef;
+    font-size: 14px;
+}
+
+.normButton{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 50px;
+    background-color: #efefef;
+    font-size: 16px;
+}
+
+#map {
+    height: 100%;
+    float: left;
+    width: 70%;
+}
+
+.lef {
+    float: left;
+    width: 20%;
+    position: absolute;
+    background: none repeat scroll 0% 0% #fff;
+    ;
+    z-index: 100;
+    transition: all 0.3s ease 0s;
+    left: -20%;
+    height: 100%;
+}
+
+.rig {
+    float: left;
+    width: 15%;
+    position: absolute;
+    background: none repeat scroll 0% 0% #fff;
+    ;
+    z-index: 100;
+    transition: all 0.3s ease 0s;
+    left: 30%;
+    height: 100%;
+    border-left: 4px solid #007EF8;
+}
+
+#messageContainer {
+    position: absolute;
+    z-index: 99999;
+    top: 30%;
+    left: 45%;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+fileForm {
+    text-align: left;
+    width: 90%;
+    margin: 100px auto 0px;
+    padding: 30px;
+    font-size: 16px;
+    background-color: #FFF;
+    z-index: 10;
+}
+
+body {
+    margin: 0px;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial, sans-serif !important;
+    background: none repeat scroll 0% 0% #fff;
+    ;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+#top {
+    padding: 15px;
+    width: 100%;
+    height: 20px;
+    background: none repeat scroll 0% 0% #007EF8;
+    text-align: left;
+    margin-top: 0px;
+    font-size: 18px;
+    top: 0px;
+    position: relative;
+    color: #FFFFFF;
+}
+
+#descTop {
+    padding-bottom: 15px;
+    padding-left: 15px;
+    width: 100%;
+    background: none repeat scroll 0% 0% #007EF8;
+    text-align: left;
+    margin-top: 0px;
+    font-size: 14px;
+    top: 0px;
+    position: relative;
+    color: #F7FAFE;
+/*    border-top: 1px solid #4648FF;*/
+}
+
+#tutorial {
+    background: none repeat scroll 0% 0% #fff;
+    text-align: left;
+    margin-top: 0px;
+    font-size: 14px;
+    top: 0px;
+    position: relative;
+    color: #001F4A;
+    float: left;
+    width: 30%;
+}
+
+.tutText {
+    padding: 40px;
+}
+
+.leftC {
+    width: 150px;
+    float: left;
+    position: relative;
+}
+
+#searching {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    z-index: 99999;
+}
+
+#controls {
+    text-align: center;
+    margin-top: -3px;
+    line-height: 20px;
+    bottom: 0px;
+    width: 100%;
+}
+
+input[type="button"] {
+    height: 30px;
+    border-radius: 5px;
+}
+
+#fileForm {
+    padding: 10px;
+}
+
+#loading img {
+    top: 30%;
+    position: absolute;
+    margin-left: -70px;
+}
+
+#options {
+    text-align: left;
+    border-radius: 5px;
+    margin: 0px auto;
+    padding: 10px;
+    font-size: 16px;
+    position: relative;
+background-color: #fff;
+}
+
+#optionsBrowse{
+
+    text-align: left;
+    border-radius: 5px;
+    margin: 0px auto;
+    padding: 10px;
+    font-size: 16px;
+    position: relative;
+background-color: #fff;
+
+}
+#optionsOSM {
+
+    text-align: left;
+    border-radius: 5px;
+    margin: 0px auto;
+    padding: 10px;
+    font-size: 16px;
+    position: relative;
+background-color: #fff;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.4s linear;
+}
+
+.down {
+    display:block;
+    opacity: 1;
+    margin-top: 10px !important;
+
+}
+
+.up {
+    display:none;
+    opacity: 1;
+    margin-top: -170px !important;
+
+    z-index: -10;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 0.4s, opacity 0.4s linear;
+}
