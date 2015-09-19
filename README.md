@@ -3,7 +3,7 @@ Comparison of OpenStreetMap (OSM) with authoritative road datasets (REF).
 The procedure allows to import customized road datasets from the OSM database and an authoritative source and returns some measures of their spatial similarity.
 
 ## Test version
-* [Online website](131.175.143.84/WPS/)  
+[Online website](http://131.175.143.84/WPS/)  
 
 
 ## Authors
