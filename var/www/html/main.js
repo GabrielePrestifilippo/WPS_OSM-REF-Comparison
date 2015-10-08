@@ -174,7 +174,7 @@ $('#optMenu').click();
     console.log("req ready");
     $.ajax({
         type: "POST",
-        url: 'http://131.175.143.84/WPS/reqcgi?Service=WPS&request=execute&version=1.0.0&identifier=osm', //URL of the WPS
+        url: 'http://localhost/cgi-bin/wps.py?Service=WPS&request=execute&version=1.0.0&identifier=osm', //URL of the WPS
         data: xmlREQ,
         contentType: "text/xml",
         dataType: "text",
@@ -352,7 +352,7 @@ $('#browseButton').click();
     console.log("send file1");
 clearFileInput("myFile1");
     $.ajax({
-        url: 'http://131.175.143.84/WPS/convert ', //URL of Conversion service 
+        url: 'http://localhost:3000/convert ', //URL of Conversion service 
         data: fd1,
         processData: false,
         contentType: false,
