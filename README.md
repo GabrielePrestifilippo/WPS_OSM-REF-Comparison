@@ -6,7 +6,7 @@ In brief, the WPS allows to import customized road datasets from OSM and an auth
 A demo of the WPS is available [here](http://131.175.143.84/WPS/).
 
 ## How to use the tool
-Road network datasets must (for REF) and can (for OSM) be uploaded as a compressed ESRI shapfile. Click the Browse button, select the .zip file from your system and adjust its color using the *Layer Color* selector. You have also to enter the reference system of the dataset.
+Road network datasets must (for REF) and can (for OSM) be uploaded as a compressed ESRI shapfile. Click the *Browse* button, select the .zip file from your system and adjust its color using the *Layer Color* selector. You have also to enter the reference system of the dataset.
 
 The OSM road network dataset can be also retrieved using the [Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) by clicking the *Retrieve OSM* data button. This will retrieve OSM data for the current map view; alternatively, hold down the shift key, draw a rectangle on the map view and then click the *Selection Retrieve* button.
 
