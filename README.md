@@ -3,7 +3,7 @@ This folder contains the code to setup the Web Processing Service (WPS) for a pr
 In brief, the WPS allows to import customized road datasets from OSM and an authoritative source and returns some measures of their spatial similarity in a PDF file.
 
 ## Live demo
-A demo of the WPS is available [here](http://131.175.143.84/WPS/).
+A demo of the WPS is available [here](http://131.175.143.84/WPS/). 
 
 ## How to use the tool
 Road network datasets must (for REF) and can (for OSM) be uploaded as a compressed ESRI shapfile. Click the *Browse* button, select the .zip file from your system and adjust its color using the *Layer Color* selector. You have also to enter the reference system of the dataset.
