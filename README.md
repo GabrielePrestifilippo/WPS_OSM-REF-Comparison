@@ -1,5 +1,5 @@
 # WPS for the preliminary comparison of OSM and authoritative road network datasets
-This folder contains the code to setup the Web Processing Service (WPS) for a preliminary comparison of the OpenStreetMap (OSM) and authoritative (hereafter REF) road network datasets. This corresponds to the Step 1 of the procedure described in the folder [GRASS-scripts](https://github.com/MoniaMolinari/OSM-roads-comparison/tree/master/GRASS-scripts).
+This folder contains the code to setup the Web Processing Service (WPS) for a preliminary comparison of the [OpenStreetMap (OSM)](http://www.openstreetmap.org) and authoritative (hereafter REF) road network datasets. This corresponds to the Step 1 of the procedure described in the folder [GRASS-scripts](https://github.com/MoniaMolinari/OSM-roads-comparison/tree/master/GRASS-scripts).
 In brief, the WPS allows to import customized road datasets from OSM and an authoritative source and returns some measures of their spatial similarity in a PDF file.
 
 ## Live demo
