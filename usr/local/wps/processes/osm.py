@@ -1,3 +1,14 @@
+############################################################################ # 
+# MODULE:
+# AUTHOR(S): Gabriele Prestifilippo, Monia Molinari, Marco Minghini
+# PURPOSE: tool for the comparison of two road datasets
+# COPYRIGHT: (C) 2012 by the GRASS Development Team 
+# 
+# This program is free software under the GNU General Public 
+# License (>=v2). Read the file COPYING that comes with GRASS 
+# for details. 
+# ############################################################################
+
 from pywps.Process import WPSProcess
 import types
 import logging
