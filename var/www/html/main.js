@@ -1,5 +1,8 @@
 /*jslint browser: true, devel: true, eqeq: true, newcap: true, plusplus: true, sloppy: true, vars: true*/
 /*global ol, jsPDF, osmtogeojson, FormData, $*/
+
+/*Author: Gabriele Prestifilippo*/
+
 var map;
 var dragBox;
 var bbox;
@@ -55,7 +58,7 @@ function newF() {
 
 function geoCoding(name) {
     $.ajax({
-        url: "https://maps.googleapis.com/maps/api/geocode/json?address=" + name + "&key=AIzaSyCOEVIpatIxZJ4z-kCJhueNVO9S8jNeGIs", //Insert Your GMap key here
+        url: "https://maps.googleapis.com/maps/api/geocode/json?address=" + name + "&key=XXXXXXXXXXXXXXXXXX", //Insert Your GMap key here
         type: "GET",
         success: function (res) {
             var coords = [];
