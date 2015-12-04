@@ -413,10 +413,10 @@ $('#over').click();
             width: 2
         })
     });
-    var data = '[out:json][timeout:25];(way["highway"](' + bbox + '););out body;>;out skel qt;';
+    var data = '[out:json][timeout:25];(way["highway"](' + bbox + '););out skel;>;out skel qt;';
     console.log(data);
     $.ajax({
-        url: 'http://overpass-api.de/api/interpreter',
+        url: 'http://overpass-api.de/api/interpreter', //You are supposed to install your own overpass interpreter
         data: data,
         processData: false,
         contentType: false,
